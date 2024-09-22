@@ -17,11 +17,11 @@
     /* primary */
     --md-ref-palette-primary0: #000000;
     --md-ref-palette-primary10: #21005D;
-    --md-ref-palette-primary20: #381E72;
-    --md-ref-palette-primary30: #4F378B;
-    --md-ref-palette-primary40: #6750A4;
-    --md-ref-palette-primary50: #7F67BE;
-    --md-ref-palette-primary60: #9A82DB;
+    --md-ref-palette-primary20: #45a9df;
+    --md-ref-palette-primary30: #45a9df;
+    --md-ref-palette-primary40: #45a9df;
+    --md-ref-palette-primary50: #45a9df;
+    --md-ref-palette-primary60: #45a9df;
     --md-ref-palette-primary70: #B69DF8;
     --md-ref-palette-primary80: #D0BCFF;
     --md-ref-palette-primary90: #EADDFF;
@@ -86,8 +86,8 @@
     --md-ref-palette-neutral-variant99: #FFFBFE;
     --md-ref-palette-neutral-variant100: #FFFFFF;
     /* light */
-    --md-sys-color-surface-tint-light: #6750A4;
-    --md-sys-color-surface-tint-color-light: #6750A4;
+    --md-sys-color-surface-tint-light: #45a9df;
+    --md-sys-color-surface-tint-color-light: #45a9df;
     --md-sys-color-on-error-container-light: #410E0B;
     --md-sys-color-on-error-light: #FFFFFF;
     --md-sys-color-error-container-light: #F9DEDC;
@@ -114,7 +114,7 @@
     --md-sys-color-on-primary-container-light: #21005D;
     --md-sys-color-on-primary-light: #FFFFFF;
     --md-sys-color-primary-container-light: #EADDFF;
-    --md-sys-color-primary-light: #6750A4;
+    --md-sys-color-primary-light: #45a9df;
     /* dark */
     --md-sys-color-surface-tint-dark: #D0BCFF;
     --md-sys-color-surface-tint-color-dark: #D0BCFF;
@@ -140,10 +140,10 @@
     --md-sys-color-on-secondary-dark: #332D41;
     --md-sys-color-secondary-container-dark: #4A4458;
     --md-sys-color-secondary-dark: #CCC2DC;
-    --md-sys-color-inverse-primary-dark: #6750A4;
+    --md-sys-color-inverse-primary-dark: #45a9df;
     --md-sys-color-on-primary-container-dark: #EADDFF;
     --md-sys-color-on-primary-dark: #381E72;
-    --md-sys-color-primary-container-dark: #4F378B;
+    --md-sys-color-primary-container-dark: #45a9df;
     --md-sys-color-primary-dark: #D0BCFF;
     /* label - small */
     --md-sys-typescale-label-small-font-family-name: Roboto;
