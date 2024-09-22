@@ -19,7 +19,7 @@ export class NavDrw extends MdNavigationDrawer {
 
    <a ${resaltaSiEstasEn(["/formulario.html"])} href="formulario.html">
     <span class="material-symbols-outlined">newspaper</span>
-    Formulario
+    Select integrantes
    </a>
 
    <a ${resaltaSiEstasEn(["/ayuda.html"])} href="ayuda.html">
