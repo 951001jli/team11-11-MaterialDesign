@@ -53,7 +53,7 @@
     </md-select-menu>
     <span id="etiquetaGenero"
       accesskey="G">
-     Género*
+     Integrantes de equipo*
     </span>
     <small id="supportingGenero">
      * Obligatorio
@@ -63,7 +63,7 @@
    <p>
     <button class="md-filled-button"
       style="width: 100%;">
-     Recomendar
+     Ver chiste
     </button>
    </p>
 
@@ -76,12 +76,20 @@
      title="Selecciona género">
    </span>
 
-   <span data-value="pop">
-    Pop
+   <span data-value="liz">
+    Garduño Aguilar Norma Lizet
    </span>
 
-   <span data-value="reg">
-    Reguetón
+   <span data-value="luis">
+    Hernández Izquierdo José Luis
+   </span>
+
+   <span data-value="bran">
+    Hernández Pérez Brandon Jesús
+   </span>
+
+   <span data-value="ed">
+    Ortíz Alejandro Edgar Alejandro
    </span>
 
   </md-options-menu>
@@ -129,12 +137,18 @@
 
   /** @param {string} genero */
   function recomienda(genero) {
-   if (genero === "pop") {
-    return "Para el pop te " +
-     "recomiendo a Dua Lipa."
-   } else if (genero === "reg") {
-    return "Para el reguetón te " +
-     "recomiendo a Bad Bunny."
+   if (genero === "liz") {
+    return "Mamá, en el colegio me llaman distraído. " +
+     "Juanito, tú vives en la casa de enfrente."
+   } else if (genero === "luis") {
+    return "¿Sabes cuál es el café más peligroso del mundo? " +
+     "¡El ex-preso!"
+   }else if (genero === "bran") {
+    return "¿Qué le dice una iguana a su hermana gemela? " +
+     "¡Iguanita tú!"
+   }else if (genero === "ed") {
+    return "¿Qué le dice una piedra a otra piedra? " +
+     "¡La vida es dura!"
    }
   }
  </script>

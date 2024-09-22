@@ -28,15 +28,41 @@
 @import url(../lib/css/md-tab.css);
 @import url(../lib/css/md-navigation-bar.css);
 
+:root {
+  --main-color: #f0f0f0;
+  --main-modal-color:#f0f0f0;
+  --second-color: #FAFAFA;
+  --second-modal-color:#FAFAFA;
+}
+
 html {
   --tabWidth: 3.75rem;
   --anchoNav: 22.5rem;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--second-color);
+  background-color: var(--main-modal-color);
+}
+
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 main {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 */
 }
 
 /* Quita un borde rojo que coloca Firefox. */
@@ -57,6 +83,14 @@ body {
   text-decoration: var(--md-sys-typescale-body-large-text-decoration);
   color: var(--md-sys-color-on-background);
   background-color: var(--md-sys-color-background);
+
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;  /* La imagen cubrirá todo el fondo */
+  background-position: center;  
+  background-repeat: no-repeat;  
+  margin: 0;   
+  height: 100vh;  
+ 
 }
 
 body.fouc {
@@ -133,11 +167,92 @@ html {
 
 p {
   margin: 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
 }
 
 a {
   color: var(--md-sys-color-on-background);
+    font-weight: bold;
+    transition: all .3s ease-out;
 }
+
+a:hover {
+  color: var(--second-modal-color);
+}
+
+
+::selection {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Header h1 { word-wrap: break-word; }
+
+.Header img {
+  margin: 0 auto;
+  display: block;
+  max-width: 150px;
+  border-radius: 25%;
+}
+
+.Header nav {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 3rem;
+}
+
+.Main iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+footer{
+  text-align: center;
+}
+footer > div{
+  display: inline-block;
+}
+footer > div::after{
+  content: '|';
+}
+footer > div:last-child:after{
+  content: '';
+}
+
+
+ul.integrantes-list {
+list-style-type: none;
+padding: 0;
+margin: 0;
+max-width: 600px;
+margin: 20px auto;
+}
+
+ul.integrantes-list li {
+background-color: #76797c38;
+border: 0px solid #ddd;
+border-radius: 35px;
+padding: 10px;
+margin: 5px 0;
+text-align: center;
+font-size: 1.1em;
+}
+
+ul.integrantes-list li:nth-child(odd) {
+background-color: #76797c38;
+}
+
 
 @media (prefers-color-scheme: light) {
   html {
