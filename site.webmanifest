@@ -1,6 +1,6 @@
 {
- "short_name": "PWA con MD - 11:11",
- "name": "PWA con Material Design",
+ "short_name": "Chistes - 11:11",
+ "name": "PWA de chistes de equipo 11:11",
  "id": "/index.html",
  "start_url": "/index.html",
  "display": "standalone",
@@ -9,7 +9,7 @@
  "display_override": [
   "window-controls-overlay"
  ],
- "description": "PWA con componentes de Material Design del equipo 11:11.",
+ "description": "Revisa los mejores chistes del equipo 11:11 ... o los peores.",
  "screenshots": [
   {
    "src": "/img/screenshot_horizontal.png",
